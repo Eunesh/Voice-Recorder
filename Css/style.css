@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.mic_icon{
+    border: 1px ridge #050505;
+    padding: 10px;
+    border-radius: 65px;
+    cursor: pointer;
+    background-color: #f7f3f3;
+    margin-left: 20px;
+    
+}
+
+
+.mic_icon:hover {
+    background-color: #dfdcdc;
+    
+    /* filter: drop-shadow(3px 3px 2px #050505); */
+}
+
+
+
+
+
+.main_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px ridge #050505 ; */
+    height: 50dvh;
+    gap: 20px;
+}
+
+.first_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* border: 1px ridge #050505; */
+    padding: 15px;
+}
+
+
+.hover_message{
+    display: none;
+    margin-left: 10px;
+    padding: 5px;
+    padding-left: 20px;
+    width: 10dvw;
+    background-color: #6f6f6f;
+    height: 5dvh;
+    border-radius: 3px;
+    color: white;
+    font-weight: 500;
+    font-size: medium;
+}
+
+/* .main_wrapper:hover .hover_message {
+    display: block;
+} */

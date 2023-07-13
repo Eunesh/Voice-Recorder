@@ -58,7 +58,7 @@ if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
       // audio_chunks = [];
       const audioURL = window.URL.createObjectURL(blob);
       audio.src = audioURL;
-      document.getElementById("myDIV").appendChild(audio);
+      document.getElementById("main_section").appendChild(audio);
     };
 
     // if data is available in our Media Recorder then in here we push to audio_chunks array data is on BLOB data types
