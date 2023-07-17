@@ -12,12 +12,13 @@
     cursor: pointer;
     background-color: #f7f3f3;
     margin-left: 20px;
+    background-color: #050505;
     
 }
 
 
 .mic_icon:hover {
-    background-color: #dfdcdc;
+    background-color: #363636;
     
     /* filter: drop-shadow(3px 3px 2px #050505); */
 }
@@ -32,7 +33,7 @@
     justify-content: center;
     align-items: center;
     /* border: 1px ridge #050505 ; */
-    height: 50dvh;
+    height: 70dvh;
     gap: 20px;
 }
 
@@ -46,21 +47,39 @@
     padding: 15px;
 }
 
-
-.hover_message{
+.listining_card{
+    position: absolute;
+    bottom: 150px;
+    background-color: #040404;
+    width: 70dvw;
+    max-width: 50dvw;
+    height: 50dvh;
     display: none;
-    margin-left: 10px;
-    padding: 5px;
-    padding-left: 20px;
-    width: 10dvw;
-    background-color: #6f6f6f;
-    height: 5dvh;
-    border-radius: 3px;
-    color: white;
-    font-weight: 500;
-    font-size: medium;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 100;
 }
 
-/* .main_wrapper:hover .hover_message {
-    display: block;
-} */
+.listining_card h1 {
+
+    color: #f7f3f3;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.stop_icon{
+    height: 5dvh;
+    width: 4dbw;
+    cursor: pointer;
+}
+
+.stop_icon:hover{
+    transform: scale(1.4);
+    transition: transform 150ms ease-in-out;
+}
+
+.timer{
+    color: #f7f3f3;
+    size: 100px;
+}
